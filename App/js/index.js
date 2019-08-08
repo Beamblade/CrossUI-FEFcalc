@@ -28,7 +28,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("4.166666666666667em")
                 .setWidth("9.583333333333334em")
                 .setHeight("4.5em")
-                .setCaption("Button")
+                .setCaption("Toggle Attacker")
             );
             
             append(
@@ -39,7 +39,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("31.666666666666668em")
                 .setWidth("9.583333333333334em")
                 .setHeight("3.6666666666666665em")
-                .setCaption("Button")
+                .setCaption("Run Combat!")
             );
             
             append(
