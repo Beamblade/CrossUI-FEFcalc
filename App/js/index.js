@@ -36,9 +36,9 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_button4")
                 .setDirtyMark(false)
                 .setLeft("27.5em")
-                .setTop("31.666666666666668em")
+                .setTop("32.5em")
                 .setWidth("9.583333333333334em")
-                .setHeight("3.6666666666666665em")
+                .setHeight("2.8333333333333335em")
                 .setCaption("Run Combat!")
             );
             
@@ -135,6 +135,27 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     }
                 ])
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox2")
+                .setDirtyMark(false)
+                .setLeft("0.8333333333333334em")
+                .setTop("43.333333333333336em")
+                .setWidth("7em")
+                .setCaption("Charisma")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox3")
+                .setDirtyMark(false)
+                .setLeft("0.8333333333333334em")
+                .setTop("45em")
+                .setWidth("5.333333333333333em")
+                .setHeight("1.6666666666666667em")
+                .setCaption("Daunt")
             );
             
             return children;
