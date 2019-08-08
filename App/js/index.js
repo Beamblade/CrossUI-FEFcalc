@@ -25,9 +25,9 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_button3")
                 .setDirtyMark(false)
                 .setLeft("27.5em")
-                .setTop("4.166666666666667em")
+                .setTop("5.833333333333333em")
                 .setWidth("9.583333333333334em")
-                .setHeight("4.5em")
+                .setHeight("2.8333333333333335em")
                 .setCaption("Toggle Attacker")
             );
             
@@ -53,6 +53,17 @@ xui.Class('App', 'xui.Module',{
                 .setLabelSize("8em")
                 .setLabelCaption("Text Area")
                 .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button11")
+                .setDirtyMark(false)
+                .setLeft("27.5em")
+                .setTop("37.5em")
+                .setWidth("9.583333333333334em")
+                .setHeight("2.8333333333333335em")
+                .setCaption("Level up Attacker")
             );
             
             return children;
