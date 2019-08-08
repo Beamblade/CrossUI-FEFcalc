@@ -66,6 +66,77 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("Level up Attacker")
             );
             
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput24")
+                .setDirtyMark(false)
+                .setLeft("0.8333333333333334em")
+                .setTop("39.166666666666664em")
+                .setWidth("17.166666666666668em")
+                .setLabelSize("8em")
+                .setLabelCaption("Weapon")
+                .setType("listbox")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"item 1",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput25")
+                .setDirtyMark(false)
+                .setLeft("0.8333333333333334em")
+                .setTop("41.666666666666664em")
+                .setWidth("17.166666666666668em")
+                .setHeight("1.8333333333333333em")
+                .setLabelSize("8em")
+                .setLabelCaption("Terrain")
+                .setType("listbox")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"item 1",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
